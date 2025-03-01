@@ -1,0 +1,12 @@
+.calendar_logo {
+    font-size: 1.3rem;
+   // background-color: #33DCE9;
+    color: #06E8A2;
+    border-radius: 2rem;
+    padding: 0 0.6rem;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    background-color: mix(#06E8A2, $onSurface, 70%);
+}

@@ -1,0 +1,16 @@
+(defwidget cal []
+  (revealer :transition "slidetop" :reveal {open_calendar} :duration {ANIM_DURATION}
+    (box :orientation "v" :space-evenly false :class "notifications-center"
+      (box :orientation "h" :space-evenly true
+        (label :class "notifications-header-text" :halign "start" :text {calendar.month})
+        (label :class "notifications-header-text" :halign "end" :text {calendar.year})
+
+        
+      )
+      (box :orientation "v" :space-evenly false
+        
+         (label :vexpand true :valign "center" :text cal)
+      )
+    )
+  )
+)

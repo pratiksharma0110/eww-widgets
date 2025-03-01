@@ -1,0 +1,5 @@
+(defwidget cal_logo []
+    (button :class "calendar_logo" :onclick "scripts/toggle_cal.sh && scripts/calendar.sh"
+        (label :text "")
+    )
+)

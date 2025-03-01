@@ -4,3 +4,12 @@
 (defpoll day :interval "1s"
   "date +'%A' | tr 'a-z' 'A-Z' "
   )
+(defpoll cal :interval "1s" 
+  "cal |sed '1d'"
+  )
+
+(deflisten calendar :initial '{ "year": "2025", "month": "", "dates": [], "current_date": "1", "day": ""}' 
+  "scripts/calendar.sh")
+
+;dont need calendar.sh to fetch days and all, for year and month, can use EWW_TIME too
+

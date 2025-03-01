@@ -13,3 +13,15 @@
      (modern_clock) 
 
 )
+
+(defwindow cal_
+           :monitor 0
+           :geometry (geometry :x "0%"
+                               :y "8px"
+                               :width "12%"
+                               :height "35px"
+                               :anchor "top center")
+           :stacking "fg"
+           (cal)
+
+)

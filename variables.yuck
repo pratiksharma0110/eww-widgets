@@ -1,0 +1,6 @@
+
+;polls
+;i think i should use cronjob to exectute this at midnight only instead of every 1s
+(defpoll day :interval "1s"
+  "date +'%A' | tr 'a-z' 'A-Z' "
+  )

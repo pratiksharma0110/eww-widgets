@@ -1,0 +1,8 @@
+(defwidget modern_clock []
+  (box :orientation "v" :space-evenly false :class "modern_clock"
+    (label :class "day" :text day)
+    (label :class "date" :text {formattime(EWW_TIME, "%x")})
+  )
+)
+
+

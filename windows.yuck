@@ -1,0 +1,15 @@
+
+;-other widgess like bar etc... 
+
+(defwindow modern_clock 
+      :monitor 0 
+      :stacking "bg"
+     :geometry (geometry :x "0%"
+                               :y "20px"
+                               :width "0%"
+                               :height "30px"
+                               :anchor "top center")
+      
+     (modern_clock) 
+
+)
